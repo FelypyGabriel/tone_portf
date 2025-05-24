@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeriasvisuais</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Sigmar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <a href="#" class="logo2">
+            <h1>tone</h1>
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#sobre">Serviços</a>
+            <a href="#recursos">Links</a>
+            <a href="#contatos">Contato</a>
+        </nav>
+    </header>
+    
+    <section class="container intro-section">
+        <div class="containertitulo">
+            <h1 class="titulo">TONE</h1>
+        </div>
+    </section>
+    
+    <!-- Seção de Galeria -->
+    <section class="gallery">
+        <div class="container">
+            <img src="https://i.pinimg.com/564x/90/62/9f/90629f5e6fe261f346b29483fdcb1110.jpg" alt="Imagem 1" class="image">
+            <div class="text">GITHUB</div>
+        </div>
+        <div class="container">
+            <img src="https://i.pinimg.com/564x/90/62/9f/90629f5e6fe261f346b29483fdcb1110.jpg" alt="Imagem 2" class="image">
+            <div class="text">LETTES</div>
+        </div>
+        <div class="container">
+            <img src="https://i.pinimg.com/564x/90/62/9f/90629f5e6fe261f346b29483fdcb1110.jpg" alt="Imagem 3" class="image">
+            <div class="text">SERVIÇOS</div>
+        </div>
+        <div class="container">
+            <img src="https://i.pinimg.com/564x/90/62/9f/90629f5e6fe261f346b29483fdcb1110.jpg" alt="Imagem 4" class="image">
+            <div class="text">LINKEDIN</div>
+        </div>
+    </section>
+
+    <section class="container intro-section">
+        <div class="containertitulo">
+            <h1 class="titulo">GABYY_USER</h1>
+        </div>
+        <div class="containertitulo">
+            <h1 class="titulo2">amo one pice</h1>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            ScrollReveal({
+                reset: true,
+                distance: '100px',
+                duration: 2000,
+                easing: 'ease-in-out',
+            });
+    
+            ScrollReveal().reveal('.containertitulo', { delay: 160, origin: 'top' });
+            ScrollReveal().reveal('.conteiner', { delay: 100, origin: 'bottom', interval: 300 });
+            ScrollReveal().reveal('.gallery', { delay: 150, origin: 'left' });
+        });
+    </script>
+</body>
+</html>
