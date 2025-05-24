@@ -79,7 +79,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: #c53800;
+    color: #ffffff;
     border-radius: 3%;
     border-color: bla;
     font-size: 5rem;
@@ -149,6 +149,10 @@ body {
     background-color: #f0f0f0; 
 }
 
+.gallery .image2 .image3 {
+    gap: 20px;
+    max-width: 400px;
+}
 /* Estilo para a galeria de imagens */
 .gallery {
     display: grid;
@@ -162,7 +166,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ff8539;
+    background-image: "https://i.pinimg.com/originals/ad/67/a7/ad67a7015003b41b1e931e9526d89883.gif";
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
