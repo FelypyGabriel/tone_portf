@@ -55,7 +55,7 @@ body {
 /* Logo */
 .logo2 {
     font-family: 'VT323', monospace;
-    color: #ffffff; /* mais claro que branco */
+    color: #000000; /* mais claro que branco */
     font-size: 1.8rem; /* menor */
 }
 
