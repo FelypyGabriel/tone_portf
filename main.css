@@ -31,7 +31,7 @@ body {
 /* Header */
 .header {
     font-family: 'Press Start 2P', monospace;
-    padding: auto;
+    padding: 0rem 2%;
     box-sizing: border-box;
     outline: none; 
     border: none;
@@ -55,7 +55,7 @@ body {
 /* Logo */
 .logo2 {
     font-family: 'VT323', monospace;
-    color: #000000; /* mais claro que branco */
+    color: #ffffff; /* mais claro que branco */
     font-size: 1.8rem; /* menor */
 }
 
@@ -89,7 +89,7 @@ body {
 /* Títulos e textos principais */
 .containertitulo {
     font-family: 'VT323', monospace;
-    color: #000000; /* clareado bisque */
+    color: #ffffff; /* clareado bisque */
     background-color: transparent;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
