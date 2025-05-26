@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>galeriasvisuais</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Sigmar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonte pixel art -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Sigmar&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header class="header">
         <a href="#" class="logo2">
-            <h1>PROJETO_SIMPLES</h1>
+            <h1>PORTF. </h1>
         </a>
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -26,51 +27,74 @@
     
     <section class="container intro-section">
         <div class="containertitulo">
-            <h1 class="titulo">TONE PROJECT</h1>
+            <h1 class="titulo pixel-title">SELECT</h1>
         </div>
     </section>
     
-    <!-- Seção de Galeria -->
     <section class="gallery">
         <div class="container">
-            <img src="https://i.pinimg.com/originals/ad/67/a7/ad67a7015003b41b1e931e9526d89883.gif" alt="Imagem 1" class="image">
-            <div class="text">TONE</div>
+            <a href="historia.html">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bf0e4106954973.5f9b8e936c6f2.gif" alt="História" class="image" />
+                <div class="text pixel-text">Currículo</div>
+            </a>
         </div>
         <div class="container">
-            <img src="https://i.pinimg.com/originals/ad/67/a7/ad67a7015003b41b1e931e9526d89883.gif" alt="Imagem 1" class="image">
-            <div class="text">TONE</div>
+            <a href="eventos.html">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bf0e4106954973.5f9b8e936c6f2.gif" alt="Eventos" class="image" />
+                <div class="text pixel-text">Certificados</div>
+            </a>
         </div>
         <div class="container">
-            <img src="https://i.pinimg.com/originals/ad/67/a7/ad67a7015003b41b1e931e9526d89883.gif" alt="Imagem 1" class="image">
-            <div class="text">TONE</div>
+            <a href="projetos.html">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bf0e4106954973.5f9b8e936c6f2.gif" alt="Projetos" class="image" />
+                <div class="text pixel-text">Projetos</div>
+            </a>
         </div>
         <div class="container">
-            <img src="https://i.pinimg.com/originals/ad/67/a7/ad67a7015003b41b1e931e9526d89883.gif" alt="Imagem 1" class="image">
-            <div class="text">TONE</div>
+            <a href="memorias.html">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bf0e4106954973.5f9b8e936c6f2.gif" alt="Memórias" class="image" />
+                <div class="text pixel-text">Git</div>
+            </a>
         </div>
     </section>
 
     <section class="container intro-section">
         <div class="containertitulo">
-            <h1 class="titulo">GAB</h1>
+            <h1 class="titulo pixel-title">GAB</h1>
         </div>
         <div class="containertitulo">
-            <h1 class="titulo2">ative o modo desktop</h1>
+            <h1 class="titulo2 pixel-title">Miamoto</h1>
         </div>
+    </section>
+
+    <!-- Seção Sobre Mim adicionada -->
+    <section class="container intro-section" id="sobre-mim" style="margin: 40px 0;">
+        <div class="containertitulo">
+            <h2 class="titulo pixel-title">Sobre Mim</h2>
+        </div>
+    </selection>
+    <selection class="topicss">
+        <ul>
+            <li>Bug Bounty Hunter</li>
+            <li>Conhecimento em HTML, CSS e Frontend</li>
+            <li>SQL e Python com nível avançado</li>
+            <li>Atuação como Pentester</li>
+            <li>Projetos de interfaces gráficas desenvolvidos institucionalmente e individualmente</li>
+        </ul>
     </section>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             ScrollReveal({
                 reset: true,
-                distance: '100px',
+                distance: "100px",
                 duration: 2000,
-                easing: 'ease-in-out',
+                easing: "ease-in-out",
             });
-    
-            ScrollReveal().reveal('.containertitulo', { delay: 160, origin: 'top' });
-            ScrollReveal().reveal('.conteiner', { delay: 100, origin: 'bottom', interval: 300 });
-            ScrollReveal().reveal('.gallery', { delay: 150, origin: 'left' });
+
+            ScrollReveal().reveal(".containertitulo", { delay: 100, origin: "top" });
+            ScrollReveal().reveal(".container", { delay: 200, origin: "bottom", interval: 100 });
+            ScrollReveal().reveal(".gallery", { delay: 300, origin: "left" });
         });
     </script>
 </body>
